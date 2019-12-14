@@ -1,0 +1,8 @@
+class Question extends subject{
+    private String quest;
+    public String getQuest(){return quest;}
+    public Question(String subject,String quest){
+        super(subject);
+        this.quest = quest;
+    }
+}
