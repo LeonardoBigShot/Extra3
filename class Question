@@ -1,8 +1,9 @@
-class Question extends subject{
-    private String quest;
-    public String getQuest(){return quest;}
-    public Question(String subject,String quest){
-        super(subject);
+class Question extends Subject{
+    private Subject quest;
+    public Subject getQuest(){return quest;}
+
+    public Question(String Subject,Subject quest){
+        super(Subject);
         this.quest = quest;
     }
 }
