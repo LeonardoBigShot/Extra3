@@ -1,8 +1,0 @@
-class RGZ extends Question{
-    private int number;
-    public int getNumber(){return number;}
-    public RGZ(String subject, String quest, int number){
-        super(subject,quest);
-        this.number = number;
-    }
-}
