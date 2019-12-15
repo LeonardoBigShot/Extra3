@@ -1,6 +1,0 @@
-public class Program{
-    public static void main(){
-        Lab first = new Lab("Sport","Push up 10 times", 2);
-        RGZ second = new RGZ("Gaming","Kick the keyboard", 6);
-    }
-}
