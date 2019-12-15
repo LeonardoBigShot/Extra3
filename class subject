@@ -1,10 +1,8 @@
-class subject{
+class Subject{
     private String nameOfSubject;
     public String getName(){ return nameOfSubject;}
-    public subject(String nameOfSubject){
+
+    public Subject(String nameOfSubject){
         this.nameOfSubject=nameOfSubject;
-    }
-    public void display(){
-        System.out.printf("Name: %s", nameOfSubject);
     }
 }
